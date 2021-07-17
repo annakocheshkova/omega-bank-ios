@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		14D65EDD727842BB590A5D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658DAB702A03CEE79F4968D4 /* Assets.xcassets */; };
 		306126D87C00665EC66607E3 /* Pods_OmegaBankAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4F1BEFA05C3C636FF85B0E /* Pods_OmegaBankAPI.framework */; };
+		4959D97A7DB2B874356E0AF7 /* Pods_OmegaBankSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DE5646BA12420520FC3632 /* Pods_OmegaBankSwiftUI.framework */; };
 		5A176ED273F4379989CCEFB8 /* Pods_OmegaBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E288B1C4237B0563B80A49 /* Pods_OmegaBank.framework */; };
 		5C0790462696F865005BC7DF /* PageViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0790452696F865005BC7DF /* PageViewControllerFactory.swift */; };
 		5C07904F269858F4005BC7DF /* MKMapView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C07904E269858F4005BC7DF /* MKMapView+extension.swift */; };
@@ -95,7 +96,41 @@
 		77C8B0FD2418D29D00B2EB3D /* PartnetListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C8B0FC2418D29D00B2EB3D /* PartnetListService.swift */; };
 		77C8B1002418D98500B2EB3D /* ErrorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C8B0FF2418D98500B2EB3D /* ErrorItem.swift */; };
 		77CF6F3524066FB3000A5082 /* BarButtonItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CF6F3424066FB3000A5082 /* BarButtonItems.swift */; };
+		7AA3393B4509F2279F0E707B /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		80D8B5D3C407B38B80F273F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6670A9E959007FCDBC52FF99 /* LaunchScreen.storyboard */; };
+		874B56FE269C2728006F0876 /* OmegaBankSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B56FD269C2728006F0876 /* OmegaBankSwiftUIApp.swift */; };
+		874B5700269C2728006F0876 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B56FF269C2728006F0876 /* ContentView.swift */; };
+		874B5702269C2729006F0876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874B5701269C2729006F0876 /* Assets.xcassets */; };
+		874B5705269C2729006F0876 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874B5704269C2729006F0876 /* Preview Assets.xcassets */; };
+		874B570D269C275D006F0876 /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B570C269C275D006F0876 /* CurvedView.swift */; };
+		874B570E269C30FD006F0876 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C12B0E026848E8C003AEEE6 /* ColorAssets.xcassets */; };
+		874B570F269C3242006F0876 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757BC462404E5CC0063ACBD /* Color.swift */; };
+		874B5710269C32A0006F0876 /* CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599A4DE2428D341000411EC /* CAGradientLayer.swift */; };
+		874B5712269C3563006F0876 /* LoginBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B5711269C3563006F0876 /* LoginBackground.swift */; };
+		874B5713269C6156006F0876 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7757BC482404E5D50063ACBD /* Font.swift */; };
+		874B571A269C68FE006F0876 /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B5719269C68FE006F0876 /* LoginState.swift */; };
+		874B571B269C68FE006F0876 /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B5719269C68FE006F0876 /* LoginState.swift */; };
+		874B571D269C6C04006F0876 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B571C269C6C04006F0876 /* LoginView.swift */; };
+		874B5722269DE195006F0876 /* PhoneInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B5721269DE195006F0876 /* PhoneInputView.swift */; };
+		874B5724269DE784006F0876 /* CodeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B5723269DE784006F0876 /* CodeInputView.swift */; };
+		874B5727269DEC12006F0876 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B5726269DEC12006F0876 /* LoginViewModel.swift */; };
+		874B5728269F0FE2006F0876 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3764A850A4D197A1767543 /* ServiceLayer.swift */; };
+		874B5729269F0FEB006F0876 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77196A9223FAC898007C8C84 /* LoginService.swift */; };
+		874B572A269F11C8006F0876 /* OmegaBankAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77196A5223FA915E007C8C84 /* OmegaBankAPI.framework */; };
+		874B572B269F11C8006F0876 /* OmegaBankAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77196A5223FA915E007C8C84 /* OmegaBankAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		874B572F269F11F5006F0876 /* BiometricService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C300D2E2678D0F700E75879 /* BiometricService.swift */; };
+		874B5730269F1202006F0876 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C147C29267C90310006F261 /* Typealias.swift */; };
+		874B5731269F120F006F0876 /* AccessTokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77196A9623FACA6C007C8C84 /* AccessTokenStorage.swift */; };
+		874B5732269F1233006F0876 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77196AAD23FCFB37007C8C84 /* Results.swift */; };
+		874B5733269F1240006F0876 /* PartnetListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C8B0FC2418D29D00B2EB3D /* PartnetListService.swift */; };
+		874B5734269F124C006F0876 /* CardListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95770A40246BEB0900FE058F /* CardListService.swift */; };
+		874B5735269F1256006F0876 /* DepositListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951032C5246E90B4005902ED /* DepositListService.swift */; };
+		874B5736269F1261006F0876 /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77196A9823FACB58007C8C84 /* KeychainStorage.swift */; };
+		87A32134269F143900A1F4C9 /* BoolStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77196A9C23FACC52007C8C84 /* BoolStorage.swift */; };
+		87A32135269F144000A1F4C9 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77196A9A23FACC04007C8C84 /* DataStorage.swift */; };
+		87CFC1B526A05C4F00A8F985 /* String+Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CFC1B426A05C4F00A8F985 /* String+Mask.swift */; };
+		87CFC1B726A06BB100A8F985 /* CreatePincodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CFC1B626A06BB100A8F985 /* CreatePincodeView.swift */; };
+		87CFC1B826A071EA00A8F985 /* OfficesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2D2D268CBAE500D6EFDF /* OfficesService.swift */; };
 		8F317A3D218558E99167066F /* Pods_OmegaBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09A3B03CE52A6482381A3B5 /* Pods_OmegaBankUITests.framework */; };
 		951032C6246E90B4005902ED /* DepositListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951032C5246E90B4005902ED /* DepositListService.swift */; };
 		951032CB246E9CC2005902ED /* UserProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95595793246D47CD00F65BC3 /* UserProduct.swift */; };
@@ -238,6 +273,13 @@
 			remoteGlobalIDString = 77196A5123FA915E007C8C84;
 			remoteInfo = OmegaBankAPI;
 		};
+		874B572C269F11C8006F0876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3F7E603EE9F82DA02B4E8F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77196A5123FA915E007C8C84;
+			remoteInfo = OmegaBankAPI;
+		};
 		95E08EC22446E7E40048DCDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B3F7E603EE9F82DA02B4E8F0 /* Project object */;
@@ -266,6 +308,17 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		874B572E269F11C8006F0876 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				874B572B269F11C8006F0876 /* OmegaBankAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -277,6 +330,7 @@
 		1EB4F9E0D9D47A973F654243 /* Pods-OmegaBankUITests.app-store.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaBankUITests.app-store.xcconfig"; path = "Target Support Files/Pods-OmegaBankUITests/Pods-OmegaBankUITests.app-store.xcconfig"; sourceTree = "<group>"; };
 		21F7884ED66CBDF8F60523BE /* Pods-OmegaBankAPI.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaBankAPI.qa.xcconfig"; path = "Target Support Files/Pods-OmegaBankAPI/Pods-OmegaBankAPI.qa.xcconfig"; sourceTree = "<group>"; };
 		5641AE11A7FC176697C5D344 /* Pods-OmegaBankAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaBankAPITests.debug.xcconfig"; path = "Target Support Files/Pods-OmegaBankAPITests/Pods-OmegaBankAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A084450EAFB746AB86D3E46 /* Pods-OmegaBankSwiftUI.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaBankSwiftUI.qa.xcconfig"; path = "Target Support Files/Pods-OmegaBankSwiftUI/Pods-OmegaBankSwiftUI.qa.xcconfig"; sourceTree = "<group>"; };
 		5C0790452696F865005BC7DF /* PageViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewControllerFactory.swift; sourceTree = "<group>"; };
 		5C07904E269858F4005BC7DF /* MKMapView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMapView+extension.swift"; sourceTree = "<group>"; };
 		5C12B0DC26847A4D003AEEE6 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
@@ -314,6 +368,7 @@
 		658DAB702A03CEE79F4968D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6670A9E959007FCDBC52FF99 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		670B4953E269E99CC82A52AF /* Pods-OmegaBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaBank.debug.xcconfig"; path = "Target Support Files/Pods-OmegaBank/Pods-OmegaBank.debug.xcconfig"; sourceTree = "<group>"; };
+		6B06CC0E0C73A6C9A93E6CF7 /* Pods-OmegaBankSwiftUI.app-store.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaBankSwiftUI.app-store.xcconfig"; path = "Target Support Files/Pods-OmegaBankSwiftUI/Pods-OmegaBankSwiftUI.app-store.xcconfig"; sourceTree = "<group>"; };
 		6B3764A850A4D197A1767543 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 		7700FD502412609E00210AD3 /* PartnersEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersEndpoint.swift; sourceTree = "<group>"; };
 		7700FD53241262DE00210AD3 /* Partner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partner.swift; sourceTree = "<group>"; };
@@ -367,7 +422,23 @@
 		77C8B0FC2418D29D00B2EB3D /* PartnetListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnetListService.swift; sourceTree = "<group>"; };
 		77C8B0FF2418D98500B2EB3D /* ErrorItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorItem.swift; sourceTree = "<group>"; };
 		77CF6F3424066FB3000A5082 /* BarButtonItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonItems.swift; sourceTree = "<group>"; };
+		79DE5646BA12420520FC3632 /* Pods_OmegaBankSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OmegaBankSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4F1BEFA05C3C636FF85B0E /* Pods_OmegaBankAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OmegaBankAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874B56FB269C2728006F0876 /* OmegaBankSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmegaBankSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		874B56FD269C2728006F0876 /* OmegaBankSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmegaBankSwiftUIApp.swift; sourceTree = "<group>"; };
+		874B56FF269C2728006F0876 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		874B5701269C2729006F0876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		874B5704269C2729006F0876 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		874B5706269C2729006F0876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874B570C269C275D006F0876 /* CurvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
+		874B5711269C3563006F0876 /* LoginBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBackground.swift; sourceTree = "<group>"; };
+		874B5719269C68FE006F0876 /* LoginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginState.swift; sourceTree = "<group>"; };
+		874B571C269C6C04006F0876 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		874B5721269DE195006F0876 /* PhoneInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneInputView.swift; sourceTree = "<group>"; };
+		874B5723269DE784006F0876 /* CodeInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeInputView.swift; sourceTree = "<group>"; };
+		874B5726269DEC12006F0876 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		87CFC1B426A05C4F00A8F985 /* String+Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Mask.swift"; sourceTree = "<group>"; };
+		87CFC1B626A06BB100A8F985 /* CreatePincodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePincodeView.swift; sourceTree = "<group>"; };
 		9283B12EFE816628821DB7C9 /* OmegaBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmegaBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		951032C5246E90B4005902ED /* DepositListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositListService.swift; sourceTree = "<group>"; };
 		951032CC246E9D1F005902ED /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
@@ -495,6 +566,7 @@
 		D7FD97D25CBF0A00A46E7A66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E09A3B03CE52A6482381A3B5 /* Pods_OmegaBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OmegaBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E9DC4585A7041B83A48D18 /* Pods-OmegaBankAPITests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaBankAPITests.qa.xcconfig"; path = "Target Support Files/Pods-OmegaBankAPITests/Pods-OmegaBankAPITests.qa.xcconfig"; sourceTree = "<group>"; };
+		F39D046EC1505D94936E62F4 /* Pods-OmegaBankSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaBankSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-OmegaBankSwiftUI/Pods-OmegaBankSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		FCC202582E1B3409E4BE23DD /* Pods-OmegaBankUITests.qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaBankUITests.qa.xcconfig"; path = "Target Support Files/Pods-OmegaBankUITests/Pods-OmegaBankUITests.qa.xcconfig"; sourceTree = "<group>"; };
 		FE5FD665DF2DA830858C8539 /* Pods-OmegaBank.app-store.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmegaBank.app-store.xcconfig"; path = "Target Support Files/Pods-OmegaBank/Pods-OmegaBank.app-store.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -506,6 +578,7 @@
 			files = (
 				5A176ED273F4379989CCEFB8 /* Pods_OmegaBank.framework in Frameworks */,
 				77196A6723FA915E007C8C84 /* OmegaBankAPI.framework in Frameworks */,
+				7AA3393B4509F2279F0E707B /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +603,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874B56F8269C2728006F0876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874B572A269F11C8006F0876 /* OmegaBankAPI.framework in Frameworks */,
+				4959D97A7DB2B874356E0AF7 /* Pods_OmegaBankSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +671,7 @@
 				77196A5223FA915E007C8C84 /* OmegaBankAPI.framework */,
 				77196A5A23FA915E007C8C84 /* OmegaBankAPITests.xctest */,
 				95E08EBD2446E7E40048DCDB /* OmegaBankUITests.xctest */,
+				874B56FB269C2728006F0876 /* OmegaBankSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -668,6 +751,7 @@
 			children = (
 				77196AA123FBC2A0007C8C84 /* LoginViewController.swift */,
 				77196AA323FBC2CE007C8C84 /* LoginViewController.xib */,
+				874B5719269C68FE006F0876 /* LoginState.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -735,6 +819,9 @@
 				1EB4F9E0D9D47A973F654243 /* Pods-OmegaBankUITests.app-store.xcconfig */,
 				AF6ECF2217AA27A9F38C4167 /* Pods-OmegaBankUITests.debug.xcconfig */,
 				FCC202582E1B3409E4BE23DD /* Pods-OmegaBankUITests.qa.xcconfig */,
+				6B06CC0E0C73A6C9A93E6CF7 /* Pods-OmegaBankSwiftUI.app-store.xcconfig */,
+				F39D046EC1505D94936E62F4 /* Pods-OmegaBankSwiftUI.debug.xcconfig */,
+				5A084450EAFB746AB86D3E46 /* Pods-OmegaBankSwiftUI.qa.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1014,6 +1101,7 @@
 				7F4F1BEFA05C3C636FF85B0E /* Pods_OmegaBankAPI.framework */,
 				012B1146DCCBAB350E6C6FFD /* Pods_OmegaBankAPITests.framework */,
 				E09A3B03CE52A6482381A3B5 /* Pods_OmegaBankUITests.framework */,
+				79DE5646BA12420520FC3632 /* Pods_OmegaBankSwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1069,6 +1157,50 @@
 				6670A9E959007FCDBC52FF99 /* LaunchScreen.storyboard */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		874B56FC269C2728006F0876 /* OmegaBankSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				874B570B269C274C006F0876 /* SwiftUI */,
+				874B56FD269C2728006F0876 /* OmegaBankSwiftUIApp.swift */,
+				874B56FF269C2728006F0876 /* ContentView.swift */,
+				87CFC1B426A05C4F00A8F985 /* String+Mask.swift */,
+				874B5701269C2729006F0876 /* Assets.xcassets */,
+				874B5706269C2729006F0876 /* Info.plist */,
+				874B5703269C2729006F0876 /* Preview Content */,
+			);
+			path = OmegaBankSwiftUI;
+			sourceTree = "<group>";
+		};
+		874B5703269C2729006F0876 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				874B5704269C2729006F0876 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		874B570B269C274C006F0876 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				874B5725269DEC04006F0876 /* View Model */,
+				874B570C269C275D006F0876 /* CurvedView.swift */,
+				874B5711269C3563006F0876 /* LoginBackground.swift */,
+				874B571C269C6C04006F0876 /* LoginView.swift */,
+				874B5721269DE195006F0876 /* PhoneInputView.swift */,
+				874B5723269DE784006F0876 /* CodeInputView.swift */,
+				87CFC1B626A06BB100A8F985 /* CreatePincodeView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		874B5725269DEC04006F0876 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				874B5726269DEC12006F0876 /* LoginViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 		951F873F24754BB200785552 /* Selector */ = {
@@ -1843,6 +1975,7 @@
 				AF83BE1EE06BC13F31AAD8DC /* OmegaBankTests */,
 				95E08EBE2446E7E40048DCDB /* OmegaBankUITests */,
 				77196A4C23FA8F90007C8C84 /* OmegaBankFrameworks */,
+				874B56FC269C2728006F0876 /* OmegaBankSwiftUI */,
 				49A7CD2B1300A9481E1B5BA8 /* Products */,
 				706F4C8B4B9EF5BBFADB0B0A /* Pods */,
 				77A14C4DF8965B3856AAB950 /* Frameworks */,
@@ -1925,6 +2058,27 @@
 			productReference = 77196A5A23FA915E007C8C84 /* OmegaBankAPITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		874B56FA269C2728006F0876 /* OmegaBankSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874B5707269C2729006F0876 /* Build configuration list for PBXNativeTarget "OmegaBankSwiftUI" */;
+			buildPhases = (
+				617A25E87D701AD53D54DF46 /* [CP] Check Pods Manifest.lock */,
+				874B56F7269C2728006F0876 /* Sources */,
+				874B56F8269C2728006F0876 /* Frameworks */,
+				874B56F9269C2728006F0876 /* Resources */,
+				874B572E269F11C8006F0876 /* Embed Frameworks */,
+				91CFD3F4498666B8EDB66420 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874B572D269F11C8006F0876 /* PBXTargetDependency */,
+			);
+			name = OmegaBankSwiftUI;
+			productName = OmegaBankSwiftUI;
+			productReference = 874B56FB269C2728006F0876 /* OmegaBankSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8E4C42559AE79B09CDC9A6B7 /* OmegaBankTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CA0F14673B535FD6DEBEA4B /* Build configuration list for PBXNativeTarget "OmegaBankTests" */;
@@ -1968,7 +2122,7 @@
 		B3F7E603EE9F82DA02B4E8F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = RedMadRobot;
 				TargetAttributes = {
@@ -1979,6 +2133,9 @@
 					77196A5923FA915E007C8C84 = {
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = 1A7B2F3A96B474D7B6D7640F;
+					};
+					874B56FA269C2728006F0876 = {
+						CreatedOnToolsVersion = 12.5;
 					};
 					8E4C42559AE79B09CDC9A6B7 = {
 						ProvisioningStyle = Automatic;
@@ -2009,6 +2166,7 @@
 				77196A5123FA915E007C8C84 /* OmegaBankAPI */,
 				77196A5923FA915E007C8C84 /* OmegaBankAPITests */,
 				95E08EBC2446E7E40048DCDB /* OmegaBankUITests */,
+				874B56FA269C2728006F0876 /* OmegaBankSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -2025,6 +2183,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874B56F9269C2728006F0876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874B5705269C2729006F0876 /* Preview Assets.xcassets in Resources */,
+				874B570E269C30FD006F0876 /* ColorAssets.xcassets in Resources */,
+				874B5702269C2729006F0876 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2181,6 +2349,28 @@
 			shellPath = /bin/sh;
 			shellScript = "${PODS_ROOT}/SwiftGen/bin/swiftgen\n";
 		};
+		617A25E87D701AD53D54DF46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OmegaBankSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		73B7651D64DEAC576CE5DEED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2201,6 +2391,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91CFD3F4498666B8EDB66420 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OmegaBankSwiftUI/Pods-OmegaBankSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OmegaBankSwiftUI/Pods-OmegaBankSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OmegaBankSwiftUI/Pods-OmegaBankSwiftUI-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F67E67FFAFEEA913DCFB2CDE /* [CP] Check Pods Manifest.lock */ = {
@@ -2330,6 +2537,7 @@
 				77196A9723FACA6C007C8C84 /* AccessTokenStorage.swift in Sources */,
 				5CB8E42C266FB30F00A689D5 /* PinCodeKeyboardView.swift in Sources */,
 				A831740758724667D902F5D4 /* AppDelegate.swift in Sources */,
+				874B571A269C68FE006F0876 /* LoginState.swift in Sources */,
 				95770A41246BEB0900FE058F /* CardListService.swift in Sources */,
 				9544F9EE242A1E7900127693 /* CurvedView.swift in Sources */,
 				958F146C247D1D9E0052F9EF /* SubmitButton.swift in Sources */,
@@ -2391,6 +2599,40 @@
 				77C34B5223FFC035005CFD23 /* CheckSmsCodeEndpointTest.swift in Sources */,
 				95770A3F246BE22800FE058F /* CardTypesEndpointTest.swift in Sources */,
 				95770A3D246BE22800FE058F /* ApplyCardEndpointTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874B56F7269C2728006F0876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874B5735269F1256006F0876 /* DepositListService.swift in Sources */,
+				874B5700269C2728006F0876 /* ContentView.swift in Sources */,
+				874B5710269C32A0006F0876 /* CAGradientLayer.swift in Sources */,
+				87CFC1B826A071EA00A8F985 /* OfficesService.swift in Sources */,
+				87A32135269F144000A1F4C9 /* DataStorage.swift in Sources */,
+				874B5713269C6156006F0876 /* Font.swift in Sources */,
+				874B571D269C6C04006F0876 /* LoginView.swift in Sources */,
+				874B5733269F1240006F0876 /* PartnetListService.swift in Sources */,
+				874B5728269F0FE2006F0876 /* ServiceLayer.swift in Sources */,
+				874B570F269C3242006F0876 /* Color.swift in Sources */,
+				874B5732269F1233006F0876 /* Results.swift in Sources */,
+				874B5730269F1202006F0876 /* Typealias.swift in Sources */,
+				874B5712269C3563006F0876 /* LoginBackground.swift in Sources */,
+				874B5724269DE784006F0876 /* CodeInputView.swift in Sources */,
+				87CFC1B726A06BB100A8F985 /* CreatePincodeView.swift in Sources */,
+				874B572F269F11F5006F0876 /* BiometricService.swift in Sources */,
+				874B571B269C68FE006F0876 /* LoginState.swift in Sources */,
+				874B5727269DEC12006F0876 /* LoginViewModel.swift in Sources */,
+				87A32134269F143900A1F4C9 /* BoolStorage.swift in Sources */,
+				874B5722269DE195006F0876 /* PhoneInputView.swift in Sources */,
+				874B56FE269C2728006F0876 /* OmegaBankSwiftUIApp.swift in Sources */,
+				874B5731269F120F006F0876 /* AccessTokenStorage.swift in Sources */,
+				87CFC1B526A05C4F00A8F985 /* String+Mask.swift in Sources */,
+				874B570D269C275D006F0876 /* CurvedView.swift in Sources */,
+				874B5736269F1261006F0876 /* KeychainStorage.swift in Sources */,
+				874B5729269F0FEB006F0876 /* LoginService.swift in Sources */,
+				874B5734269F124C006F0876 /* CardListService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2462,6 +2704,11 @@
 			isa = PBXTargetDependency;
 			target = 77196A5123FA915E007C8C84 /* OmegaBankAPI */;
 			targetProxy = 77196A6523FA915E007C8C84 /* PBXContainerItemProxy */;
+		};
+		874B572D269F11C8006F0876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77196A5123FA915E007C8C84 /* OmegaBankAPI */;
+			targetProxy = 874B572C269F11C8006F0876 /* PBXContainerItemProxy */;
 		};
 		95E08EC32446E7E40048DCDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3035,6 +3282,137 @@
 			};
 			name = QA;
 		};
+		874B5708269C2729006F0876 /* App-Store */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B06CC0E0C73A6C9A93E6CF7 /* Pods-OmegaBankSwiftUI.app-store.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OmegaBankSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = UP7W48JG25;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OmegaBankSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = anna.OmegaBankSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "App-Store";
+		};
+		874B5709269C2729006F0876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39D046EC1505D94936E62F4 /* Pods-OmegaBankSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OmegaBankSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = UP7W48JG25;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OmegaBankSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = anna.OmegaBankSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		874B570A269C2729006F0876 /* QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A084450EAFB746AB86D3E46 /* Pods-OmegaBankSwiftUI.qa.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"OmegaBankSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = UP7W48JG25;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = OmegaBankSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = anna.OmegaBankSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = QA;
+		};
 		95E08EC42446E7E40048DCDB /* App-Store */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EB4F9E0D9D47A973F654243 /* Pods-OmegaBankUITests.app-store.xcconfig */;
@@ -3233,6 +3611,16 @@
 				77196A6F23FA915E007C8C84 /* App-Store */,
 				77196A7023FA915E007C8C84 /* Debug */,
 				77196A7123FA915E007C8C84 /* QA */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		874B5707269C2729006F0876 /* Build configuration list for PBXNativeTarget "OmegaBankSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874B5708269C2729006F0876 /* App-Store */,
+				874B5709269C2729006F0876 /* Debug */,
+				874B570A269C2729006F0876 /* QA */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
